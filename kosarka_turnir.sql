@@ -1,5 +1,5 @@
 --
--- File generated with SQLiteStudio v3.2.1 on čet. nov. 12 13:49:37 2020
+-- File generated with SQLiteStudio v3.2.1 on sre. dec. 16 10:48:47 2020
 --
 -- Text encoding used: System
 --
@@ -8677,7 +8677,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            71,
-                           6,
+                           7,
                            0,
                            2,
                            6
@@ -8692,7 +8692,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            71,
-                           12,
+                           13,
                            2,
                            5,
                            3
@@ -8707,7 +8707,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            71,
-                           17,
+                           18,
                            5,
                            4,
                            5
@@ -8722,7 +8722,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            71,
-                           21,
+                           22,
                            0,
                            0,
                            0
@@ -8737,7 +8737,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            71,
-                           24,
+                           25,
                            6,
                            1,
                            0
@@ -8782,7 +8782,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            72,
-                           6,
+                           7,
                            8,
                            6,
                            6
@@ -8797,7 +8797,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            72,
-                           12,
+                           13,
                            2,
                            0,
                            2
@@ -8812,7 +8812,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            72,
-                           17,
+                           18,
                            11,
                            1,
                            2
@@ -8827,7 +8827,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            72,
-                           21,
+                           22,
                            9,
                            4,
                            2
@@ -8842,7 +8842,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            72,
-                           24,
+                           25,
                            7,
                            3,
                            6
@@ -8887,7 +8887,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            73,
-                           6,
+                           7,
                            11,
                            2,
                            6
@@ -8902,7 +8902,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            73,
-                           12,
+                           13,
                            12,
                            3,
                            5
@@ -8917,7 +8917,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            73,
-                           17,
+                           18,
                            14,
                            1,
                            5
@@ -8932,7 +8932,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            73,
-                           21,
+                           22,
                            13,
                            6,
                            4
@@ -8947,7 +8947,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            73,
-                           24,
+                           25,
                            4,
                            4,
                            2
@@ -8992,7 +8992,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            74,
-                           6,
+                           7,
                            4,
                            2,
                            5
@@ -9007,7 +9007,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            74,
-                           12,
+                           13,
                            30,
                            2,
                            2
@@ -9022,7 +9022,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            74,
-                           17,
+                           18,
                            14,
                            0,
                            4
@@ -9037,7 +9037,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            74,
-                           21,
+                           22,
                            5,
                            4,
                            4
@@ -9052,7 +9052,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            74,
-                           24,
+                           25,
                            5,
                            0,
                            3
@@ -9097,7 +9097,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            75,
-                           6,
+                           7,
                            10,
                            4,
                            5
@@ -9112,7 +9112,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            75,
-                           12,
+                           13,
                            4,
                            0,
                            0
@@ -9127,7 +9127,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            75,
-                           17,
+                           18,
                            7,
                            5,
                            5
@@ -9142,7 +9142,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            75,
-                           21,
+                           22,
                            5,
                            2,
                            0
@@ -9157,7 +9157,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            75,
-                           24,
+                           25,
                            0,
                            4,
                            3
@@ -9202,7 +9202,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            76,
-                           6,
+                           7,
                            10,
                            3,
                            5
@@ -9217,7 +9217,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            76,
-                           12,
+                           13,
                            28,
                            3,
                            4
@@ -9232,7 +9232,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            76,
-                           17,
+                           18,
                            5,
                            5,
                            2
@@ -9247,7 +9247,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            76,
-                           21,
+                           22,
                            10,
                            4,
                            4
@@ -9262,7 +9262,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            76,
-                           24,
+                           25,
                            2,
                            1,
                            0
@@ -9307,7 +9307,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            77,
-                           6,
+                           7,
                            14,
                            2,
                            6
@@ -9322,7 +9322,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            77,
-                           12,
+                           13,
                            8,
                            6,
                            6
@@ -9337,7 +9337,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            77,
-                           17,
+                           18,
                            13,
                            3,
                            6
@@ -9352,7 +9352,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            77,
-                           21,
+                           22,
                            11,
                            3,
                            1
@@ -9367,7 +9367,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            77,
-                           24,
+                           25,
                            6,
                            3,
                            4
@@ -9412,7 +9412,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            78,
-                           6,
+                           7,
                            6,
                            6,
                            6
@@ -9427,7 +9427,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            78,
-                           12,
+                           13,
                            2,
                            5,
                            1
@@ -9442,7 +9442,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            78,
-                           17,
+                           18,
                            0,
                            0,
                            4
@@ -9457,7 +9457,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            78,
-                           21,
+                           22,
                            8,
                            4,
                            5
@@ -9472,7 +9472,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            78,
-                           24,
+                           25,
                            11,
                            6,
                            2
@@ -9517,7 +9517,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            79,
-                           6,
+                           7,
                            14,
                            4,
                            6
@@ -9532,7 +9532,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            79,
-                           12,
+                           13,
                            24,
                            5,
                            6
@@ -9547,7 +9547,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            79,
-                           17,
+                           18,
                            10,
                            4,
                            6
@@ -9562,7 +9562,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            79,
-                           21,
+                           22,
                            14,
                            3,
                            6
@@ -9577,7 +9577,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            79,
-                           24,
+                           25,
                            14,
                            6,
                            0
@@ -9622,7 +9622,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            80,
-                           6,
+                           7,
                            5,
                            4,
                            3
@@ -9637,7 +9637,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            80,
-                           12,
+                           13,
                            12,
                            5,
                            5
@@ -9652,7 +9652,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            80,
-                           17,
+                           18,
                            6,
                            5,
                            2
@@ -9667,7 +9667,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            80,
-                           21,
+                           22,
                            13,
                            1,
                            0
@@ -9682,7 +9682,7 @@ INSERT INTO statistika (
                        )
                        VALUES (
                            80,
-                           24,
+                           25,
                            15,
                            1,
                            1
