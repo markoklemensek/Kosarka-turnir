@@ -305,8 +305,8 @@ def spremeni_statistiko_igralca(ime, priimek, id1, id2, tocke, podaje, skoki):
     return None
 
 def rezultat_igralca_na_tekmi(ime, priimek, id1, id2):
-    '''vrne tabelo v kateri so: ime, priimek, št. točk, št. podaj, št. skokov, ki jih
-    je igralec dosegel na tekmi med ekipama z id-ji id1 in id2'''
+    '''vrne tabelo v kateri so: ime, priimek, št. točk, št. podaj, št. skokov, prva ekipa, druga ekipa.
+    Te točke, podaje in skoke je igralec dosegel na tekmi med ekipama z id-ji id1 in id2'''
     sql = '''
         SELECT igralec.ime,
                igralec.priimek,
