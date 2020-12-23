@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <head>
+    	<title>Turnir v košarki</title>
+    </head>
+    <body style="background-color:powderblue;">
+    	<h1 class="title" style="color:DodgerBlue;">Statistika igralca</h1>
+	<form action="/spremembe_statistika/">
+    		<p>Na tekmi med ekipama {{podatki[5]}} in {{podatki[6]}} je igralec {{podatki[0]}} {{podatki[1]}} dosegel naslednje rezultate:
+		<br/>
+		Točke: {{podatki[2]}}
+		<br/>
+		Podaje: {{podatki[3]}}
+		<br/>
+		Skoki: {{podatki[4]}}
+		</p>
+		<p>Vnesite posodobljene rezultate:</p>
+    		<label>Točke: </label>
+		<input name = "tocke" type="text" placeholder="0-99">
+		<label>Podaje: </label>
+		<input name = "podaje" type="text" placeholder="0-99">
+		<label>Skoki: </label>
+		<input name = "skoki" type="text" placeholder="0-99">
+
+		<select hidden name="ime">
+        		<option type="text" value={{podatki[0]}}></option>
+  		</select>
+
+		<select hidden name="priimek">
+        		<option type="text" value={{podatki[1]}}></option>
+  		</select>
+
+		<select hidden name="ekipa1">
+        		<option type="text" value={{podatki[5]}}></option>
+  		</select>
+
+		<select hidden name="ekipa2">
+        		<option type="text" value={{podatki[6]}}></option>
+  		</select>
+
+		<input type="submit" value="Potrdi!">
+	</form>
+
+	%if napaka == 1:
+		<p>Števila morajo biti večja ali enaka 0 in manjša od 99.</p>
+	%end
+	
+	%if napaka == 2:
+		<p>Točke, podaje in skoki morajo biti podani kot cela števila.</p>
+	%end
+
+	%if spremembe == 1:
+		<p>Podatki so bili posodobljeni.</p>
+	%end
+    </body>
+    <footer><a href='/'>Začetna stran</a></footer>
+</html>

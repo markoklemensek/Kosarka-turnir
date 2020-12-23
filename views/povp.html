@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <head>
+    	<title>Turnir v košarki</title>
+    </head>
+    <body style="background-color:powderblue;">
+    	<h1 class="title" style="color:DodgerBlue;">Statistika</h1>
+	    <div class="content">
+    Tu je seznam vseh igralcev, ekipa za katero igrajo ter njihovo povprečno število doseženih točk, podaj in skokov:
+    <br/>
+    <br/>
+    <table>
+      %for igralec in povp_igr:
+        <b>ime</b>: {{igralec[0]}}
+        <br/>
+        <b>priimek</b>: {{igralec[1]}}
+        <br/>
+        <b>ekipa</b>: {{igralec[2]}}
+        <br/>
+        <b>povprečno število točk na tekmo</b>: {{igralec[3]}}
+        <br/>
+        <b>povprečno število podaj na tekmo</b>: {{igralec[4]}}
+        <br/>
+        <b>povprečno število skokov na tekmo</b>: {{igralec[5]}}
+        <br/>
+        <br/>
+      %end
+    </table>
+    <footer><a href='/'>Začetna stran</a></footer>
+    
+</html>
+ 

@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <head>
+    	<title>Turnir v košarki</title>
+    </head>
+    <body style="background-color:powderblue;">
+    	<h1 class="title" style="color:DodgerBlue;">Ekipe</h1>
+	<form action="/spremembe/">
+    		<label>Ime katere ekipe želite spremeniti?</label>
+			<div class="field">
+ 			 <div class="control">
+   			  <div class="select is-info">
+    			   <select name="ime" style="border:2px solid DodgerBlue;">
+                		   %for ekipa in seznam_ekip:
+        			  	 <option type="text" value={{ekipa}}>{{ekipa}}</option>
+    				   %end
+  			   </select>
+	  	          </div>
+ 			 </div>
+			</div>
+    		<label> V kaj želite spremeniti ime izbrane ekipe? </label>
+		<div class="field">
+ 		 <div class="control">
+    		  <input type="text" placeholder="Prva črka more biti velika" name="novo_ime">
+ 		 </div>
+		</div>
+    		<input type="submit" value="Potrdi!">
+	</form>
+    </body>
+    <footer><a href='/'>Začetna stran</a></footer>
+</html>
